@@ -23,6 +23,7 @@ function App() {
       {!showNavAppBar && <Navbar />}
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='Breathly-App/' element={<Home />} />
         <Route path='/sleep' element={<Sleep />} />
         <Route path='/meditation' element={<Meditation />} />
         <Route path='/relax' element={<Relax />} />

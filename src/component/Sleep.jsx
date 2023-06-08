@@ -70,7 +70,7 @@ const Sleep = () => {
                     </Tabs>
                 </Box>
                 <TabPanel value={value} index={0}>
-                    <Box display='flex' alignItems='center' flexWrap='wrap' mb='10px' m='-15px'>
+                    <Box display='flex' alignItems='center' sx={{ justifyContent: { xs: 'center', sm: 'center' } }} flexWrap='wrap' mb='10px' m='-15px'>
                         {
                             sleepData.map((item) => <SleepCard key={item.id} item={item} />)
                         }
